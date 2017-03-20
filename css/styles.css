@@ -1,0 +1,80 @@
+body{
+	background-color: lightgray;
+}
+
+#center_wrapper{
+	width: 30%;
+	height: 500px;
+	margin: auto;
+}
+
+#clock_wrapper{
+	height: 180px;
+	margin: 20px auto;
+	background-color: black;
+}
+
+#clock_wrapper div{
+	color: white;
+	text-align: center;
+}
+
+#clock_wrapper div:first-child{
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+}
+
+#clock_data_wrapper{
+	height: 110px;
+	margin: auto;
+	background-color: black;
+
+}
+
+#clock_data_wrapper div{
+	color: white;
+	text-align: center;
+}
+
+.left_align{
+	float: left;
+}
+
+.right_align{
+	float: right;
+}
+
+.buttons i:hover{
+	color: red;
+	cursor: pointer; 
+	cursor: hand;
+	font-size: 20px;
+}
+
+.buttons i:active{
+	color: white;
+	cursor: pointer; 
+	cursor: hand;
+	font-size: 20px;
+}
+.buttons i {
+	transition: font-size 0.5s;
+	-webkit-transition: font-size 0.5s;
+	-moz-transition: font-size 0.5s;
+	-o-transition: font-size 0.5s;
+	padding: 10px;
+}
+
+.data{
+	display: inline-block;
+}
+
+.data li{
+	display: inline-block;
+}
+
+
+h1{
+	text-align: center;
+}
